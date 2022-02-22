@@ -20,7 +20,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::post('/addcta3', [App\Http\Controllers\calculation::class, 'store'])->name('addcta3');
+Route::get('/addcta3', [App\Http\Controllers\calculation::class, 'store'])->name('addcta3');
 Route::get('/deleteall', [App\Http\Controllers\calculation::class, 'deleteall'])->name('deleteall');
 Route::get('/delete/{id}', [App\Http\Controllers\calculation::class, 'destroy'])->name('delete');
 
