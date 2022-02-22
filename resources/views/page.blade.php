@@ -95,16 +95,22 @@
 
                         <div class="row mt-1 mx-1">
                             <div class="col-4">
+                                @csrf
+
                                 <label class=""><strong>عدد الالواح</strong></label>
                                 <input class="form-control" type="text" value="{{ $alwa7 }}">
                             </div>
 
                             <div class="col-4">
+                                @csrf
+
                                 <label for="time"><strong>المستخدم</strong></label>
                                 <input class="form-control" type="text" value="{{ $mosta7lak }}">
                             </div>
 
                             <div class=" col-4">
+                                @csrf
+
                                 <label for=""> <strong>الهادر</strong></label>
                                 <input type="text" class="form-control" value="{{ $hader }}">
                             </div>

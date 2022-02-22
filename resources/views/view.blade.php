@@ -63,6 +63,7 @@
                             </div>
                             <input type="submit" value="الاجمالى" class="btn btn-primary col-md-12 mt-3 ">
                             <div class="row mt-3">
+                                @csrf
                                 <div class="col-md-4 "><input placeholder='عدد الالواح' class="form-control" type="text" id="date"></div>
                                 <div class="col-md-4"><input placeholder="المستهلك" class="form-control" type="text"  id="time"></div>
                                 <div class="col-md-4 "><input type="text" class="form-control" placeholder="الهادر" value=""></div>
