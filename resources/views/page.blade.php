@@ -70,8 +70,8 @@
                                             <th>العرض</th>
                                             <th>العدد</th>
                                             <th>
-                                                <button class="btn btn-danger col-md-12 py-1"
-                                                    href="{{ route('deleteall') }}"> حذف الكل </button>
+                                                <a class="btn btn-danger col-md-12 py-1"
+                                                    href="{{ route('deleteall') }}"> حذف الكل </a>
                                             </th>
                                         </tr>
                                     </thead>
