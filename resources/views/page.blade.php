@@ -29,7 +29,6 @@
                     <div class="card-body">
                         <form class="row  mt-2 " action="{{ route('addcta3') }}" method="post">
                             @csrf
-                            {{ csrf_field() }}
                             <div class="my-1  col-4 ">
                                 <input placeholder='طول' class="form-control" type="float" name="hight">
                             </div>

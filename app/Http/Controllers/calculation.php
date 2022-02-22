@@ -22,7 +22,8 @@ class calculation extends Controller
         $cta3->total = $request->hight * $request->width * $request->number;
 
         $cta3->save();
-        return redirect()->back();
+
+        return view('page');
     }
 
 
@@ -30,13 +31,13 @@ class calculation extends Controller
     {
         $cta3 = cta3::find($id);
         $cta3->delete();
-        return redirect()->back();
+        return view('page');
 
     }
 
     public function deleteall()
     {
         cta3::truncate();
-        return redirect()->back();
+        return view('page');
     }
 }
